@@ -1,0 +1,8 @@
+.Feed{
+    display:flex;
+    flex-direction:column;
+    flex:0.6;
+    position:relative;
+    left:40px;
+    width:300px;
+}

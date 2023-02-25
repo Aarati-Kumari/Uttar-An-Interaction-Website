@@ -1,0 +1,40 @@
+.sidebarOptions{
+    display:flex;
+    position:relative;
+    left:-80px;
+    flex-direction:column;
+}
+.sidebarOption{
+    display:flex;
+    align-items:center;
+    padding:10px;
+    cursor:pointer;
+}
+
+/* .sidebarOption:hover{
+   background:rgb(5, 5, 62);
+   border-radius:5px;
+} */
+.sidebarOption> img{
+    position:absolute;
+    height:30px;
+    border-radius:5px;
+    margin-left:20px;
+    width:40px;
+    transition:0.2s;
+}
+.sidebarOption img:hover{
+    height:45px;
+    width:55px;
+    transition:0.2s;
+}
+.sidebarOption >p{
+
+    margin-left:80px;
+    color:white;
+    font-weight:400;
+    font-size:13px;
+}
+.sidebarOption p:hover{
+    color:gray;
+}

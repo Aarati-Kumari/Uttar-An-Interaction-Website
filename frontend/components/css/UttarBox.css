@@ -1,0 +1,31 @@
+.uttarBox{
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    border:1px solid gray;
+    background-color: rgb(29, 27, 27);
+    border-radius:5px;
+    cursor:pointer;
+   width:480.5px;
+}
+
+.uttarBox:hover{
+    border:1px solid white;
+
+}
+.uttarBox_info{
+    display:flex;
+    align-items:center;
+}
+.uttarBox_info > h5{
+color:rgb(129,129,129);
+font-weight:bold;
+margin-left:10px;
+font-size:large;
+  
+}
+
+.uttarBox_uttar{
+    display:flex;
+    margin-top:8px;
+}
